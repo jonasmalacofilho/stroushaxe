@@ -1,0 +1,4 @@
+-neko ExerciseOperators.n
+-main ExerciseOperators
+-cmd nekotools boot ExerciseOperators.n
+
