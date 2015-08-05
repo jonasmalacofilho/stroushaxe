@@ -1,0 +1,7 @@
+# compile into `ReadName`
+-neko ReadName.n
+-main ReadName
+-cmd nekotools boot ReadName.n
+
+# to run, execute `./ReadName`
+

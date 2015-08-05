@@ -1,0 +1,4 @@
+# compile and run in the Haxe compiler interpreter
+--interp
+-main HelloWorld
+

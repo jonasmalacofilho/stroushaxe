@@ -1,0 +1,4 @@
+-neko ReadNameAndAge.n
+-main ReadNameAndAge
+-cmd nekotools boot ReadNameAndAge.n
+
