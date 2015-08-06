@@ -1,44 +1,43 @@
 StrousHaxe
 ==========
 
-This is an attempt to develop (a meaningful) tutorial for Haxe by following the structure of Bjarne Stroustrup's book ** Programming ** - Principles and Practice Using C++ (simply PPPUC++).
+This is an attempt to develop a comprehensive tutorial for Haxe by following the structure of Bjarne Stroustrup's book: ** Programming ** - Principles and Practice Using C++ (or more simply, PPPUC++).
 
-(According to the author) The book is about programming, where C++ is a tool used to teach programming. 
-He recommends C++ because C++:
-- is one of the most widely used programming languages, found in unsurpassed range of application areas
-- C++ is precisely and comprehensively defined by a non-proprietary international standard
-- Quality and/or free implementations are available on every kind of computer
-- Most of the programming concepts you learn using C++ can be used directly in other languages, such as C, C#, Fortran and Java.
-- directly supports the key concepts and techniques  used in real world software  
-- Finally, he simply likes C++ as a language for writing elegant and efficient code.
+According to the author, that book is about programming, where C++ is used as a tool to teach it.
+He recommends C++ because:
 
-While the first two reasons do not apply to Haxe yet, the third applies somehow, the last three certainly do (the last one, being that 'We do like Haxe for writing elegant and efficient code').
+ - It is one of the most widely used programming languages, found in unsurpassed range of application areas.
+ - C++ is precisely and comprehensively defined by a non-proprietary international standard.
+ - Quality and/or free implementations are available on every kind of computer.
+ - Most of the programming concepts you learn using C++ can be used directly in other languages, such as C, C#, Fortran and Java.
+ - C++ directly supports the key concepts and techniques used in real world software.
+ - Finally, he simply likes C++ as a language for writing elegant and efficient code.
 
-So this is also part of large efforts being done by a lot of people for that all the six reasons may be true.
+While the first two reasons do not yet apply to Haxe, the last three certainly do (the last one being that 'We do like Haxe for writing elegant and efficient code'); the third reason somewhat already does apply as well.
 
-Haxe is powerful and fits an important gap in the language market, one can be very productive and elegant and efficient by learning Haxe as a first programming language.
+In fact, we think of this as part of a large effort by a lot of people so that all the six reasons may soon be true.
 
-Why StrousHaxe?
----------------
+Haxe is very powerful and fits an important gap in the language ecosystem.
+We think one can be very productive, elegant and efficient by learning Haxe as a first programming language.
 
-Because Stroustup's work is amazing and PPPUC++ is an excellent book. We don't want to redo what he has done because he has done better than what we could, so adapt it to become PPPUHaxe seems a clever idea.
+Stroustup's work is great and PPPUC++ is an excellent introductory book on programming in general.
+Since we think he has done it far better than we could, adapting it to Haxe (some sort of PPPUHaxe) seems an interesting experiment both for teaching Haxe and programming.
 
 Want help or want to help?
 --------------------------
 
-At this point, it is just a conversion of the examples used in C++ to Haxe from the introduction Chapters.
+At this point, this is just a conversion of the introductory examples from C++ to Haxe.
+So, for one to follow these examples, one must have PPPUC++ and learn some of both languages.
+Keeping the Haxe manual close by might be useful too.
 
-So for one to follow, one must have PPPUC++ and learn both languages.
+If you know Haxe, you can help us by converting more examples from the book and by writing replacement explanations.
 
-If you know Haxe you can help, by adding more converted examples from the book writing text replacements that would transform it in a "PPPUHaxe"
+If you don't yet know Haxe, you can write the ideas that each example conveys (from PPPUC++).
 
-If you don't know Haxe yet, you can write the ideas that each example conveys (after PPPUC++).
+Please note, however, that as things move forward the maintainers may take a completely different approach.
+At the same time, if you do cooperate, we guarantee you recognition and that your input will be taken into account.
 
-As things move forward, we may take a completely different approach.
-
-We don't want (and we will reject) transcriptions of the book, if this initiative grows in the direction that we believe it can become a fully integrated text with that book, we shall then seek permission to the copyright owner of that book and worry about legally producing it as one text (or writing something similar completely from scratch that in a way that it does not infringe copyrights).
-
-If for legally producing an integration with that book it becomes necessary to sell the resulting text (as the C++PPP is), the maintainer of this project guarantees that any and all direct profits attributed to this initiative  shall be redirected to public and verifiable Haxe advancement.
-
-If you cooperate, the maintainer of the project guarantees you recognition and that your input will be taken in the process.
+We don't want – and will reject – transcriptions of Stroustrup's book.
+If this initiative grows in the direction that we believe it can and becomes fully integrated with the original book, we will then seek permission from the copyright owners to somehow produce it as a single text.
+Also, if by integrating with PPPC++ it becomes necessary to sell the resulting text, the maintainers of this project guarantee that any and all direct profits attributed to this initiative shall be redirected to public and verifiable Haxe advancements.
 
