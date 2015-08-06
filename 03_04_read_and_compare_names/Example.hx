@@ -14,9 +14,9 @@ class Example {
         var second = readWord();
         if (first == second)
             println("that's the same name twice");
-        if (first < second)  // TODO check this
+        if (first < second)
             println('$first is alphabetically before $second');
-        if (first > second)  // TODO check this
+        if (first > second)
             println('$first is alphabetically after $second');
     }
 }
