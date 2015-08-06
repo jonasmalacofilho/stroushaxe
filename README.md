@@ -1,7 +1,7 @@
 StrousHaxe
 ==========
 
-This is an attempt to develop a comprehensive tutorial for Haxe by following the structure of Bjarne Stroustrup's book: ** Programming ** - Principles and Practice Using C++ (or more simply, PPPUC++).
+This is an attempt to develop a comprehensive tutorial for Haxe by following the structure of Bjarne Stroustrup's book: *Programming – Principles and Practice Using C++* (or, more simply, PPPUC++).
 
 According to the author, that book is about programming, where C++ is used as a tool to teach it.
 He recommends C++ because:
