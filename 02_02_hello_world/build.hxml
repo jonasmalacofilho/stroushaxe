@@ -1,4 +1,15 @@
-# compile and run in the Haxe compiler interpreter
---interp
+# `*.hxml` files are one of the ways of passing parameters to the Haxe compiler;
+# in them, you can use any of the compiler command line options
+
+# start at the HelloWorld class;
+# Haxe will always search for it in a module with the same name
 -main HelloWorld
+
+# compile it for the Haxe interpreter and imediatly run it there
+--interp
+
+# to compile and run this, execute from the command line
+#   haxe <path to build.hxml>
+# example
+#   haxe build.hmxl
 
