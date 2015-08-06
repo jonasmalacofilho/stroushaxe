@@ -1,3 +1,6 @@
+# source ../facilities too, after the current path (.)
+-cp ../facilities
+
 -neko ReadNameAndAge.n
 -main ReadNameAndAge
 -cmd nekotools boot ReadNameAndAge.n
