@@ -18,15 +18,16 @@ class ReadNameAndAge {
   Notes
   -----
 
-  We use a `Facilities` module that supplies the `readWord()` static function.
-  It lives in the `../facilites` directory and it is not part of standard Haxe
-  library.
+  We use a `Facilities` class that supplies the `readWord()` static function.
+  The class lives in the `../facilites/Facilites.hx` module and it is not part
+  of standard Haxe library; it exists so that these Haxe examples can be as
+  close as possible to the original C++ ones, and can be left alone for now.
 
   The purpose of `Facilities.readWord()` is to emulate the default C++ `cin`
   behavior for reading strings: read characters until whitespace is found and
   also ignore any preceding whitespace.
 
-  `$type` is builtin on the compiler and prints, during compilation, the known
+  `$type()` is builtin on the compiler and prints, during compilation, the known
   or inferred type of some variable or expression.
 **/
 
