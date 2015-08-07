@@ -7,7 +7,7 @@ class ReadName {
         Sys.print("Please enter your first name (followed by 'enter'):\n");
         var firstName:String;  // `firstName` is a variable of type `String`
         firstName = Sys.stdin().readLine();  // read a line from the standard input
-        Sys.print("Hello");
+        Sys.print("Hello, ");
         Sys.print(firstName);
         Sys.print("!\n");
     }
