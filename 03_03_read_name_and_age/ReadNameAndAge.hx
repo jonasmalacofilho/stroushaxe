@@ -18,10 +18,10 @@ class ReadNameAndAge {
   Notes
   -----
 
-  We use a `Facilities` class that supplies the `readWord()` static function.
-  The class lives in the `../facilites/Facilites.hx` module and it is not part
-  of standard Haxe library; it exists so that these Haxe examples can be as
-  close as possible to the original C++ ones, and can be left alone for now.
+  We use a `Facilities` class so that these Haxe examples can be as close as
+  possible to the original C++ ones.  The class lives in the
+  `../facilites/Facilites.hx` module and it is not part of standard Haxe
+  library, but can be left alone for now.
 
   The purpose of `Facilities.readWord()` is to emulate the default C++ `cin`
   behavior for reading strings: read characters until whitespace is found and
