@@ -1,7 +1,7 @@
-# source ../facilities too, after the current path (.)
+# include ../facilities in the possible source file search paths
 -cp ../facilities
 
--neko ReadNameAndAge.n
 -main ReadNameAndAge
+-neko ReadNameAndAge.n
 -cmd nekotools boot ReadNameAndAge.n
 
