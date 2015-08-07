@@ -37,9 +37,9 @@ class HelloWorld {
   correct return type based on other information, such as the function block
   contents (in this case, the absence of a `return` statement`).
 
-  Just like `HelloWorld`, `Std` is also a class, but not one automatically
-  supplied by the Haxe standard library instead of being user-defined.  In this
-  example, we use two of its static functions:
+  Just like `HelloWorld`, `Std` is also a class, but is automatically supplied
+  by the Haxe standard library instead of being user-defined.  In this example,
+  we use two of its static functions:
 
    - `print` will output the given string to the standard output (usually the
      terminal screen)
