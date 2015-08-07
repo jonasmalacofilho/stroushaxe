@@ -5,18 +5,25 @@ class ReadName {
     static function main()
     {
         Sys.print("Please enter your first name (followed by 'enter'):\n");
-        var firstName = Sys.stdin().readLine();  // `firstName` is a variable of type (inferred) `String`
-        $type(firstName);  // during compilation this will print the inferred type
-        Sys.print('Hello, $firstName!\n');  // string interpolation, equivalent to "Hello, " + firstName + "!\n"
+        var firstName:String;  // `firstName` is a variable of type `String`
+        firstName = Sys.stdin().readLine();  // read a line from the standard input
+        Sys.print("Hello");
+        Sys.print(firstName);
+        Sys.print("!\n");
     }
 }
 
 /**
-  Notes:
+  Notes
+  -----
 
-  `Sys.stdin()` returns the standard input stream;
+  The explicit type `:String` for `firstName` is also optional and could be
+  inferred by the compiler from the assignment on the subsequent line.
 
-  There is an equivalent `Sys.stdout()` accessor for the standard output stream
-  and, in fact, `Sys.print()` is just a shorthand to `Sys.stdout().writeString()`
+  `Sys.stdin()` returns the standard input stream; then, `readLine()` reads
+  characters from that stream until a newline is found.
+
+  There is an equivalent `Sys.stdout()` accessor for the standard output stream;
+  in fact, `Sys.print()` is just a shorthand to `Sys.stdout().writeString()`
 **/
 

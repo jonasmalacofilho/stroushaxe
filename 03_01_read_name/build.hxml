@@ -1,7 +1,22 @@
-# compile into `ReadName`
--neko ReadName.n
+# in the previous example we used the internal interpreter to run;
+# now, we simply compile to the Neko virtual machine and make an executable
+# from it
+
 -main ReadName
+
+# compile to `ReadName.n` Neko VM bytecode
+-neko ReadName.n
+
+# although we could just execute the program by calling the Neko VM first,
+# make a standalone executable `ReadName` (or `ReadName.exe` or `ReadName.app`,
+# depending on the platform you are on)
 -cmd nekotools boot ReadName.n
 
-# to run, execute `./ReadName`
+# to compile, execute from the command line
+#   haxe build.hxml
+# then, to run, execute
+#   ./ReadName
+
+# alternatively, to run the bytecode by first calling the Neko VM, execute
+#   neko ReadName.n
 
