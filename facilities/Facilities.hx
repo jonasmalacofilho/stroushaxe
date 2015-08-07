@@ -12,7 +12,7 @@ class Facilities {
       is, by reading until whitespace if found and by ignoring any preceding
       whitespace.
     **/
-    public static function readWord():String
+    public static function getWord():String
     {
         var whiteSpace = [" ", "\n", "\t"];
         var buffer = new StringBuf();

@@ -1,4 +1,4 @@
-import Facilities.readWord;
+import Facilities.getWord;
 
 /**
   Detect repeated words.
@@ -10,7 +10,7 @@ class Example {
         var current;  // current word
         try {  // keep reading a stream
             while (true) {
-                current = readWord();
+                current = getWord();
                 if (previous == current)  // check if the word is the same as last
                     Sys.println('repeated word: $current');
                 previous = current;

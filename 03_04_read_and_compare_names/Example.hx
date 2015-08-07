@@ -1,6 +1,6 @@
 // include specific functions from Facilities and Sys; now these
 // methods can be called directly
-import Facilities.readWord;
+import Facilities.getWord;
 import Sys.println;
 
 /**
@@ -10,8 +10,8 @@ class Example {
     static function main()
     {
         println("Please enter two names");
-        var first = readWord();
-        var second = readWord();
+        var first = getWord();
+        var second = getWord();
         if (first == second)
             println("that's the same name twice");
         if (first < second)

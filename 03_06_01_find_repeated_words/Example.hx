@@ -1,4 +1,4 @@
-import Facilities.readWord;
+import Facilities.getWord;
 
 /**
   Find repeated words.
@@ -11,7 +11,7 @@ class Example {
         var current;
         try {
             while (true) {
-                current = readWord();
+                current = getWord();
                 wordNumber++;  // increase the word count
                 if (previous == current)
                     Sys.println('word number $wordNumber repeated: $current');

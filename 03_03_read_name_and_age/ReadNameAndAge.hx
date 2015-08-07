@@ -6,9 +6,9 @@ class ReadNameAndAge {
     static function main()
     {
         Sys.print("Please enter your first name and age\n");
-        var firstName = Facilities.readWord();  // read a string
+        var firstName = Facilities.getWord();  // read a string
         $type(firstName);  // during compilation, show the inferred type of `firstName` (String)
-        var age = Std.parseInt(Facilities.readWord());  // read a string and parse it as int
+        var age = Std.parseInt(Facilities.getWord());  // read a string and parse it as int
         $type(age);  // show the inferred type of `age` (Null<Int>, that is, a nullable integer)
         Sys.print('Hello, $firstName (age "$age")\n');  // build the output string first using 'interpolation'
     }
