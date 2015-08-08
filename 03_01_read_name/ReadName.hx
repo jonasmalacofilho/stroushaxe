@@ -1,6 +1,10 @@
 /**
   Read and write a first name.
+
+  Handle basic input.
 **/
+
+
 class ReadName {
     static function main()
     {
@@ -13,12 +17,13 @@ class ReadName {
     }
 }
 
+
 /**
   Notes
   -----
 
-  The explicit type `:String` for `firstName` is also optional and could be
-  inferred by the compiler from the assignment on the subsequent line.
+  The explicit type `:String` for `firstName` is optional and could be inferred
+  by the compiler from the subsequent assignment.
 
   `Sys.stdin()` returns the standard input stream; then, `readLine()` reads
   characters from that stream until a newline is found.

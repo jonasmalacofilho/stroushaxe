@@ -1,4 +1,9 @@
-import Facilities;
+/**
+  Simple program to exercise operators.
+
+  Use some numeric operators.
+**/
+
 
 class ExerciseOperators {
     static function main()
@@ -14,4 +19,18 @@ class ExerciseOperators {
         Sys.println('square root of n == ${Math.sqrt(n)}');
     }
 }
+
+
+/**
+  Notes
+  -----
+
+  For more details, check out [Numeric Operators] on the Haxe Manual.
+
+  Not only variables or other simple expressions can be used in a string
+  interpolation.  Complex expressions can be inserted by wraping them in
+  braces.
+
+  [Numeric Operators]: http://haxe.org/manual/types-numeric-operators.html
+**/
 

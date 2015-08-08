@@ -1,8 +1,10 @@
-import Facilities.getWord;
-
 /**
   Find repeated words.
+
+  Composite assignment operators.
 **/
+
+
 class Example {
     static function main()
     {
@@ -11,7 +13,7 @@ class Example {
         var current;
         try {
             while (true) {
-                current = getWord();
+                current = Facilities.getWord();
                 wordNumber++;  // increase the word count
                 if (previous == current)
                     Sys.println('word number $wordNumber repeated: $current');

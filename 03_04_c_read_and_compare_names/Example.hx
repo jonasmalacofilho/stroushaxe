@@ -1,11 +1,15 @@
-// include specific functions from Facilities and Sys; now these
-// methods can be called directly
-import Facilities.getWord;
-import Sys.println;
-
 /**
-  Read and compare names
+  Read and compare names.
+
+  Exercise more String operators.
 **/
+
+
+// we can import specific functions from Facilities and Sys so that they can
+// be called directly
+import Facilities.getWord;  // use `getWord(x)` instead of `Facilities.getWord(x)`
+import Sys.println;  // use `println(x)` instead of `Sys.println(x)`
+
 class Example {
     static function main()
     {
