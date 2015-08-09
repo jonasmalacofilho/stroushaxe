@@ -1,4 +1,4 @@
--cp ../facilities
+-cp ../../facilities
 -main Example
 -neko Example.n
 -cmd nekotools boot Example.n

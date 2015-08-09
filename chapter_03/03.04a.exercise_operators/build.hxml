@@ -1,4 +1,4 @@
--cp ../facilities
+-cp ../../facilities
 -main ExerciseOperators
 -neko ExerciseOperators.n
 -cmd nekotools boot ExerciseOperators.n

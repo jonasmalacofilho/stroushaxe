@@ -1,5 +1,5 @@
 # include ../facilities in the possible source file search paths
--cp ../facilities
+-cp ../../facilities
 
 -main ReadNameAndAge
 -neko ReadNameAndAge.n
