@@ -45,5 +45,8 @@ class HelloWorld {
      terminal screen)
    - `exit` will inform the system of the program exit status; a value of `0`
      means that it terminated successfully
+
+  Haxe is a compiled language.  To compile (and run) this program, see the
+  accompanying 'build.hxml' file.
 **/
 
