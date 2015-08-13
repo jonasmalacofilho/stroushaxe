@@ -34,10 +34,6 @@ class InputStreamImpl extends StreamBuf {
         this.h = h;
 }
 
-// a reference type required for passing Haxe basic types;
-// basic types are, within the language, passed by value, not by reference
-typedef Ref<T> = tink.core.Ref<T>;
-
 // C++/istream inspired input stream
 @:forward
 abstract InputStream(InputStreamImpl) from InputStreamImpl {
