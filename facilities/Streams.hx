@@ -10,12 +10,6 @@ enum StreamState {
 
 // TODO base stream buffer
 class StreamBuf {
-}
-
-// input stream buffer
-@:allow(InputStream)
-class InputStreamImpl extends StreamBuf {
-    var h:HaxeInput;
     var r:StreamState;
 
     public function good()
@@ -29,13 +23,18 @@ class InputStreamImpl extends StreamBuf {
 
     public function bad()
         return r.match(Bad);
+}
 
+// input stream buffer
+@:allow(InputStream)
+class InputStreamImpl extends StreamBuf {
+    var h:HaxeInput;
     public function new(h:HaxeInput)
         this.h = h;
 }
 
 // C++/istream inspired input stream
-@:forward
+@:forward @:access(StreamBuf)
 abstract InputStream(InputStreamImpl) from InputStreamImpl {
     // useful for `while (stream) { ... }` code
     @:to function toBool()
@@ -65,6 +64,17 @@ abstract InputStream(InputStreamImpl) from InputStreamImpl {
             this.r = Bad;
         }
         x.value = buffer.toString();
+        return this;
+    }
+
+    // FIXME
+    @:op(A >> B) function readIntoIntRef(x:Ref<Int>):InputStream
+    {
+        var s:Ref<String> = "";
+        readIntoStringRef(s);
+        x.value = Std.parseInt(s);
+        if (x.value == null)
+            this.r = Fail;
         return this;
     }
 }
