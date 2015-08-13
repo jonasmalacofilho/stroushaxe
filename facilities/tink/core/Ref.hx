@@ -1,7 +1,7 @@
 /**
   A reference type.
 
-  Adapted from [haxetink/tink_core], licensed under
+  From [haxetink/tink_core], licensed under
 
   The MIT License (MIT)
 
